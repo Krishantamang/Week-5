@@ -1,0 +1,31 @@
+*{
+    align-self: center;
+    background-image: url(img/gymbg.jpg);
+}
+header{
+    align-self: center;
+}
+img{
+    height: 300px;
+    width: 200px;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.first{
+    padding-left: 120px;
+}
+.second{
+
+}
+.last{
+    padding-right:120px; ;
+}
+.first .second .last{
+    width: 20%;
+    float: left;
+    
+}
