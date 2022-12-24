@@ -1,19 +1,31 @@
 *{
     align-self: center;
-    background-image: url(img/gymbg.jpg);
+    font-family: "Montserrat";
+    text-align: center;
+    background-color:lightgray;
+    margin: 0;
 }
-header{
-    align-self: center;
+h3{
+    padding-bottom: 5px ;
+    text-decoration-line: underline;
 }
 img{
     height: 300px;
     width: 200px;
+    padding-bottom: 30px;
+}
+header{
+    text-decoration-line: underline;
+    padding-top: 30px ;
+    padding-bottom: 10px;
 }
 .all{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 30px;
+    flex-wrap: nowrap;
 }
 .first{
     padding-left: 120px;
@@ -27,5 +39,4 @@ img{
 .first .second .last{
     width: 20%;
     float: left;
-    
 }

@@ -1,11 +1,33 @@
 *{
-    
+    font-family:"Montserrat" ;
+    margin: 0;
 }
-.pic{
-    width: 55%;
-    height: 100px;
+h1{
+    font-size: 50px;
+}
+p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+img{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.all .text, .pic{
+    float: left;
+    width: 50%;
 }
 .text{
-    width: 45%;
+    width: 60%;
+    padding-left: 90px;
+    padding-top: 120px;
+    background-color:lightblue;
     height: 100vh;
+}
+.all .pic{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
