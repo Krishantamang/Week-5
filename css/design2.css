@@ -1,8 +1,7 @@
 *{
-    align-self: center;
-    font-family: "Montserrat";
     text-align: center;
-    background-color:lightgray;
+    font-family: "Montserrat";
+    background: linear-gradient(#A1C4FD,#C2E9FB);
     margin: 0;
 }
 h3{
