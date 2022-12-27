@@ -1,0 +1,48 @@
+*{
+    font-family:"Montserrat" ;
+    margin: 0;
+    color: antiquewhite;
+}
+h1{
+    font-size: 50px;
+    padding-bottom: 0px;
+}
+p{ 
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+body{
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+}
+.all .text .head .para{
+    display: flex;
+    position: relative;
+}
+.all .text{
+    height: 50vh;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 90px;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    background-color:rgb(0, 49, 65);
+}
+.all.text .head{
+    width: 40%;
+}
+.all .text .para{
+    width: 60%;
+}
+.all .pic{
+    width: 80%;
+    height: 50vh;
+}
+.all .pic img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
